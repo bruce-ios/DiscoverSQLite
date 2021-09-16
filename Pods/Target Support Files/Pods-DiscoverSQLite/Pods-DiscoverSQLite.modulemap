@@ -1,0 +1,6 @@
+framework module Pods_DiscoverSQLite {
+  umbrella header "Pods-DiscoverSQLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

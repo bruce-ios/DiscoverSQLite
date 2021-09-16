@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		327C65DC26F3505000594FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327C65DA26F3505000594FEA /* Main.storyboard */; };
 		327C65DE26F3505100594FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327C65DD26F3505100594FEA /* Assets.xcassets */; };
 		327C65E126F3505100594FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327C65DF26F3505100594FEA /* LaunchScreen.storyboard */; };
+		95F40B783ACA6C2D65F2FDE9 /* Pods_DiscoverSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01014F8D5AF76293C9E10AB9 /* Pods_DiscoverSQLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01014F8D5AF76293C9E10AB9 /* Pods_DiscoverSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiscoverSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		099DFBCE9B66DDDF73FF05F5 /* Pods-DiscoverSQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSQLite.debug.xcconfig"; path = "Target Support Files/Pods-DiscoverSQLite/Pods-DiscoverSQLite.debug.xcconfig"; sourceTree = "<group>"; };
 		327C65D126F3505000594FEA /* DiscoverSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoverSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327C65D426F3505000594FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		327C65D626F3505000594FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		327C65DD26F3505100594FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327C65E026F3505100594FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		327C65E226F3505100594FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1109151D0450F66EA5E07BE /* Pods-DiscoverSQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoverSQLite.release.xcconfig"; path = "Target Support Files/Pods-DiscoverSQLite/Pods-DiscoverSQLite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F40B783ACA6C2D65F2FDE9 /* Pods_DiscoverSQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DD12A7995CA60DE454A65EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099DFBCE9B66DDDF73FF05F5 /* Pods-DiscoverSQLite.debug.xcconfig */,
+				D1109151D0450F66EA5E07BE /* Pods-DiscoverSQLite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		327C65C826F3505000594FEA = {
 			isa = PBXGroup;
 			children = (
 				327C65D326F3505000594FEA /* DiscoverSQLite */,
 				327C65D226F3505000594FEA /* Products */,
+				2DD12A7995CA60DE454A65EB /* Pods */,
+				EB2EDA1BBB807023542A115B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = DiscoverSQLite;
 			sourceTree = "<group>";
 		};
+		EB2EDA1BBB807023542A115B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01014F8D5AF76293C9E10AB9 /* Pods_DiscoverSQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 327C65E526F3505100594FEA /* Build configuration list for PBXNativeTarget "DiscoverSQLite" */;
 			buildPhases = (
+				51853115C66AA836F7923165 /* [CP] Check Pods Manifest.lock */,
 				327C65CD26F3505000594FEA /* Sources */,
 				327C65CE26F3505000594FEA /* Frameworks */,
 				327C65CF26F3505000594FEA /* Resources */,
+				9C1079F804C581AF04B12BD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +157,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51853115C66AA836F7923165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiscoverSQLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1079F804C581AF04B12BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiscoverSQLite/Pods-DiscoverSQLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiscoverSQLite/Pods-DiscoverSQLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiscoverSQLite/Pods-DiscoverSQLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		327C65CD26F3505000594FEA /* Sources */ = {
@@ -283,16 +351,18 @@
 		};
 		327C65E626F3505100594FEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099DFBCE9B66DDDF73FF05F5 /* Pods-DiscoverSQLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V2W2494TP;
 				INFOPLIST_FILE = DiscoverSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bruce.DiscoverSQLite;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.mitake.DiscoverSQLite-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,16 +371,18 @@
 		};
 		327C65E726F3505100594FEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1109151D0450F66EA5E07BE /* Pods-DiscoverSQLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V2W2494TP;
 				INFOPLIST_FILE = DiscoverSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bruce.DiscoverSQLite;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.mitake.DiscoverSQLite-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
