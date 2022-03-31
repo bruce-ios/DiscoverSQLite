@@ -19,8 +19,9 @@ syntax _and_ intent.
  - [Well-documented][See Documentation]
  - Extensively tested
  - [SQLCipher][] support via CocoaPods
+ - Works on [Linux](Documentation/Linux.md) (with some limitations)
  - Active support at
-   [StackOverflow](http://stackoverflow.com/questions/tagged/sqlite.swift),
+   [StackOverflow](https://stackoverflow.com/questions/tagged/sqlite.swift),
    and [Gitter Chat Room](https://gitter.im/stephencelis/SQLite.swift)
    (_experimental_)
 
@@ -119,7 +120,7 @@ For a more comprehensive example, see
 and the [companion repository][SQLiteDataAccessLayer2].
 
 
-[Create a Data Access Layer with SQLite.swift and Swift 2]: http://masteringswift.blogspot.com/2015/09/create-data-access-layer-with.html
+[Create a Data Access Layer with SQLite.swift and Swift 2]: https://masteringswift.blogspot.com/2015/09/create-data-access-layer-with.html
 [SQLiteDataAccessLayer2]: https://github.com/hoffmanjon/SQLiteDataAccessLayer2/tree/master
 
 ## Installation
@@ -135,7 +136,7 @@ Swift code.
 
   ```swift
   dependencies: [
-      .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.13.0")
+      .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.13.3")
   ]
   ```
 
@@ -144,6 +145,8 @@ Swift code.
   ```sh
   $ swift build
   ```
+
+See the [Tests/SPM](https://github.com/stephencelis/SQLite.swift/tree/master/Tests/SPM) folder for a small demo project which uses SPM.
 
 [Swift Package Manager]: https://swift.org/package-manager
 
@@ -157,7 +160,7 @@ install SQLite.swift with Carthage:
  2. Update your Cartfile to include the following:
 
     ```ruby
-    github "stephencelis/SQLite.swift" ~> 0.13.0
+    github "stephencelis/SQLite.swift" ~> 0.13.3
     ```
 
  3. Run `carthage update` and
@@ -174,8 +177,7 @@ install SQLite.swift with Carthage:
 [CocoaPods][] is a dependency manager for Cocoa projects. To install
 SQLite.swift with CocoaPods:
 
- 1. Make sure CocoaPods is [installed][CocoaPods Installation]. (SQLite.swift
-    requires version 1.6.1 or greater.)
+ 1. Make sure CocoaPods is [installed][CocoaPods Installation].
 
     ```sh
     # Using the default Ruby install will require you to use sudo when
@@ -189,7 +191,7 @@ SQLite.swift with CocoaPods:
     use_frameworks!
 
     target 'YourAppTargetName' do
-        pod 'SQLite.swift', '~> 0.13.0'
+        pod 'SQLite.swift', '~> 0.13.3'
     end
     ```
 
@@ -226,7 +228,7 @@ device:
 
 
 [Xcode]: https://developer.apple.com/xcode/downloads/
-[Submodule]: http://git-scm.com/book/en/Git-Tools-Submodules
+[Submodule]: https://git-scm.com/book/en/Git-Tools-Submodules
 [download]: https://github.com/stephencelis/SQLite.swift/archive/master.zip
 
 
@@ -243,7 +245,7 @@ device:
 
 [See the planning document]: /Documentation/Planning.md
 [Read the contributing guidelines]: ./CONTRIBUTING.md#contributing
-[Ask on Stack Overflow]: http://stackoverflow.com/questions/tagged/sqlite.swift
+[Ask on Stack Overflow]: https://stackoverflow.com/questions/tagged/sqlite.swift
 [Open an issue]: https://github.com/stephencelis/SQLite.swift/issues/new
 [Submit a pull request]: https://github.com/stephencelis/SQLite.swift/fork
 
@@ -265,7 +267,8 @@ These projects enhance or use SQLite.swift:
 
  - [SQLiteMigrationManager.swift][] (inspired by
    [FMDBMigrationManager][])
- - [Delta: Math helper](https://apps.apple.com/app/delta-math-helper/id1436506800) (see [Delta/Utils/Database.swift](https://github.com/GroupeMINASTE/Delta-iOS/blob/master/Delta/Utils/Database.swift) for production implementation example)
+ - [Delta: Math helper](https://apps.apple.com/app/delta-math-helper/id1436506800)
+   (see [Delta/Utils/Database.swift](https://github.com/GroupeMINASTE/Delta-iOS/blob/master/Delta/Utils/Database.swift) for production implementation example)
 
 
 ## Alternatives
@@ -277,19 +280,18 @@ Looking for something else? Try another Swift wrapper (or [FMDB][]):
  - [SQLiteDB](https://github.com/FahimF/SQLiteDB)
  - [Squeal](https://github.com/nerdyc/Squeal)
  - [SwiftData](https://github.com/ryanfowler/SwiftData)
- - [SwiftSQLite](https://github.com/chrismsimpson/SwiftSQLite)
 
 [Swift]: https://swift.org/
-[SQLite3]: http://www.sqlite.org
+[SQLite3]: https://www.sqlite.org
 [SQLite.swift]: https://github.com/stephencelis/SQLite.swift
 
 [GitHubActionBadge]: https://img.shields.io/github/workflow/status/stephencelis/SQLite.swift/Build%20and%20test
 
 [CocoaPodsVersionBadge]: https://cocoapod-badges.herokuapp.com/v/SQLite.swift/badge.png
-[CocoaPodsVersionLink]: http://cocoadocs.org/docsets/SQLite.swift
+[CocoaPodsVersionLink]: https://cocoapods.org/pods/SQLite.swift
 
 [PlatformBadge]: https://cocoapod-badges.herokuapp.com/p/SQLite.swift/badge.png
-[PlatformLink]: http://cocoadocs.org/docsets/SQLite.swift
+[PlatformLink]: https://cocoapods.org/pods/SQLite.swift
 
 [CartagheBadge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
 [CarthageLink]: https://github.com/Carthage/Carthage
