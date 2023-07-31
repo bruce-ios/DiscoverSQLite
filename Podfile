@@ -5,7 +5,7 @@ target 'DiscoverSQLite' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'SQLite.swift/SQLCipher', '~> 0.13.0'
+  pod 'SQLite.swift/SQLCipher', '~> 0.14.1'
 
   # Pods for DiscoverSQLite
 
