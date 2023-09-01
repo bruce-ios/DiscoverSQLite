@@ -8,33 +8,33 @@
   "tvOS" : [
 
   ],
-  "commitish" : "119868405864babe08c8097d0998e1e66f764dd9",
+  "commitish" : "14.2",
   "iOS" : [
     {
-      "hash" : "406db746cda1307949945fd6105813b197776fb2631cadb582ff55f277bdba22",
+      "hash" : "9e253ce5ad31d3adfa9d0b421dc1b7d8650886b655983873c3fd85b54a274a0f",
       "name" : "SQLCipher",
       "container" : "SQLCipher.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "hash" : "64fef1c13f897a2407724e369b9a38fdd1af0f4322cef7d7321942837aab0ee4",
+      "hash" : "56e08e2f24e688120ae48a722ed5834d053cd9eddfe8f9718431fc8dbb70b62a",
       "name" : "SQLCipher",
       "container" : "SQLCipher.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "ba90d7822d00ca003ada9a38055fc669443e8872b8a45cc4c1074530a2512e6a",
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "15dd45a88f797a8ee80911adc2efeedf54f69e53f489c3063ac7ea3a88c338b5",
       "name" : "SQLite",
       "container" : "SQLite.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-arm64"
     },
     {
-      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
-      "hash" : "965b1680f73661a98dce79ee607ae3ab6d319eebff40e0bf74cf9c7c2c6c7a23",
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "627a199d893d3b119cc47dd1c0e3c6c4d5315af3e0a394ed28760474e2de4450",
       "name" : "SQLite",
       "container" : "SQLite.xcframework",
-      "identifier" : "ios-arm64_armv7"
+      "identifier" : "ios-arm64_x86_64-simulator"
     }
   ]
 }
