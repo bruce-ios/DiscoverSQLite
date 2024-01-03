@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SQLite-Swift.h</key>
 		<data>
-		6aTqsrfyrYHrPxSxbhRBN0n5j4Q=
+		YTdBu3zaUR9kv1ll1SB2FxfhmNQ=
 		</data>
 		<key>Headers/SQLite.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F2lvXGLJnwgtsmGHsnKDuRuH2gc=
+		ebIBRcJbJT13yenDwqnKYTrxHJk=
 		</data>
 		<key>Modules/SQLite.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		4DNPjMr6x9m7UzBkDRUYf44P+fc=
+		CEDokoHsKQ622WW4H6x23EZ+wio=
 		</data>
 		<key>Modules/SQLite.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		2ZHbFx7omlQePcWv2lFzhxtnWRg=
+		xMixCNO+eCz/VF0LpgNvC6IWN7o=
 		</data>
 		<key>Modules/SQLite.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SQLite.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZacRs8Ncr6sm5a3bXDYlNs+Mn9Q=
+		JJD0GWz4Qz0tM3/x1k0iyZAiMNs=
 		</data>
 		<key>Modules/SQLite.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PCgBag8TJOQfB0KpBconNUuS/pk=
+		M4Hy07IJQ5zybEZ2PFKgray2jmQ=
 		</data>
 		<key>Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WcsEvWz3PkYyH56ml7AmBn+6aFw=
+		ihwPxfa1Iu8iA8mgmY3L2F1naIA=
 		</data>
 		<key>Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4gMPd92AS2A1QYf9Zb9i3lDCjWY=
+		NwtvigP94g5pocX2GzbjbD7/7ro=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dg3DHU7huP436Ex8vk7CHhd7onVSQq+LfHJ3yah2Prs=
+			XInlUno9aTewJlOpITc2+2nvvXEl/9GccITjnQWpTNk=
 			</data>
 		</dict>
 		<key>Headers/SQLite.h</key>
@@ -84,14 +84,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eV5UPe9FXUfcbUz5XPdakSJ4P+tl/MoQCdw20HsE5AM=
+			T0thmyts9s2sN/cjfmFkw6RfFG9/wY7LcFk0mja5Qqw=
 			</data>
 		</dict>
 		<key>Modules/SQLite.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qHW7y6ZzXyJM0ZXRGnRQW+XrGXksaOtYCJ/KrCGdegg=
+			Ccg/S2rULRYANXIvQ1KAanAZ883StPMJ1AChbzNXxb4=
 			</data>
 		</dict>
 		<key>Modules/SQLite.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TMvndwOXn2or7hBXgIkdikcti50MacUnefPF3eAJnk4=
+			pls/Dr+uSBWkGwfmWzkANbayGn3vtxvWG1YwAy66q00=
 			</data>
 		</dict>
 		<key>Modules/SQLite.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQRB5BSBebTYeSeWwgwTJxUT/THS5OM+qx0yM0/gYoU=
+			IcGYjR2EYtEVYnnxInzM6ZYXkBFoxerIWVpslUW7NPc=
 			</data>
 		</dict>
 		<key>Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJkl3AC8MLP5z6hU2bEaHlzUY+QcQjXM038iOytDrHg=
+			A1BO2mHfnbCrP1rL+stiZCvJPenmQ1RaNZDL/6t/3Gg=
 			</data>
 		</dict>
 		<key>Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o4GKcxMLpXKZExttG9pqDK744iFOp//6ag2nuHha2EY=
+			/SK1kBOdnF4oRS8YIAwp26F7HvYKI658uV3D9+Y6a34=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
