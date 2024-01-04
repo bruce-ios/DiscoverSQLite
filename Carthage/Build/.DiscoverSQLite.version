@@ -1,40 +1,40 @@
 {
-  "commitish" : "22b3080c2ac752284d07c4aee0c954f5677c3e10",
-  "watchOS" : [
-
-  ],
   "Mac" : [
 
   ],
-  "iOS" : [
-    {
-      "name" : "SQLCipher",
-      "hash" : "486be8aaee531ba45ea3e2188037ec6f2811aa1f95a0b0ece8da8e97bd24b434",
-      "identifier" : "ios-arm64",
-      "container" : "SQLCipher.xcframework"
-    },
-    {
-      "hash" : "93c359c446dcd8431b4612b1e64cb90e7e16a1ea89311266eb0787af8b3d8af6",
-      "container" : "SQLCipher.xcframework",
-      "identifier" : "ios-arm64_x86_64-simulator",
-      "name" : "SQLCipher"
-    },
-    {
-      "container" : "SQLite.xcframework",
-      "identifier" : "ios-arm64",
-      "name" : "SQLite",
-      "hash" : "7489d9a566285b57ee7dbd759641e282eb0ce0a85dcb6bb5ebf0d9cd9bcbc734",
-      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
-    },
-    {
-      "identifier" : "ios-arm64_x86_64-simulator",
-      "name" : "SQLite",
-      "container" : "SQLite.xcframework",
-      "hash" : "d78ec3a7f32eccabffb1ac85ad32d0e809b9287b9ba4d85319f73e3573461226",
-      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
-    }
+  "watchOS" : [
+
   ],
   "tvOS" : [
 
+  ],
+  "commitish" : "35493c8c54c89773087841340dfe514f843de793",
+  "iOS" : [
+    {
+      "hash" : "486be8aaee531ba45ea3e2188037ec6f2811aa1f95a0b0ece8da8e97bd24b434",
+      "container" : "SQLCipher.xcframework",
+      "name" : "SQLCipher",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "container" : "SQLCipher.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "SQLCipher",
+      "hash" : "93c359c446dcd8431b4612b1e64cb90e7e16a1ea89311266eb0787af8b3d8af6"
+    },
+    {
+      "container" : "SQLite.xcframework",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "name" : "SQLite",
+      "identifier" : "ios-arm64",
+      "hash" : "7489d9a566285b57ee7dbd759641e282eb0ce0a85dcb6bb5ebf0d9cd9bcbc734"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "fbdd4b182f358ccac3d7bda2b8ae20b6787ce965a56e1395bbb6dd91abb189b0",
+      "swiftToolchainVersion" : "5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)",
+      "container" : "SQLite.xcframework",
+      "name" : "SQLite"
+    }
   ]
 }
